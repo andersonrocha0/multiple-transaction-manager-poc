@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MultipletransactionmanagerApplication {
+public class MultipleTransactionManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MultipletransactionmanagerApplication.class, args);
+		SpringApplication.run(MultipleTransactionManagerApplication.class, args);
 	}
 
 }

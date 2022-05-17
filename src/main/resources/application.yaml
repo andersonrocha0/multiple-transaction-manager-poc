@@ -1,1 +1,9 @@
-
+spring:
+  application:
+    name: multipletransactionmanager
+  datasource:
+    password: ${POSTGRES_PASS:1234}
+    url: ${POSTGRES_URL:jdbc:postgresql://localhost:5432/db_testing?ApplicationName=multipletransactionmanager}
+    username: ${POSTGRES_USER:postgres}
+  flyway:
+    enabled: true
