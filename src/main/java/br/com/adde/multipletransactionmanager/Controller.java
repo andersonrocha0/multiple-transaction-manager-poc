@@ -9,12 +9,12 @@ public class Controller {
 
 
     @Autowired
-    ServiceAggregator serviceAggregator;
+    private ServiceTransactionAddFreeTexts serviceTransactionAddFreeTexts;
 
     @GetMapping
     public void test() {
         System.out.println("Testing");
-        serviceAggregator.aggregate("Testing");
+        serviceTransactionAddFreeTexts.addFreeText("Testing");
     }
 
 }
